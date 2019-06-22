@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Eventos.com | Início</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="css/modern-business.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <form method="post" action="php/out_evento.php">
+
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">EVENTOS.COM</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        </ul>
+      </div>
+    </div>
+  </nav>
+   <div class="d-flex justify-content-center">
+    <fieldset>
+      <h2 style="margin: 51.5px; text-align: center;">Cadastrar Evento</h2>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Evento:</label>
+      <input type="text" class="form-control" name="nome" placeholder="Nome do Evento">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Local:</label>
+      <input type="text" class="form-control" name="local" placeholder="Endereço">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputState">Categoria:</label>
+      <select name="inputState" class="form-control">
+        <option selected>Escolher...</option>
+        <option>Arte & Cultura</option>
+        <option>Esporte</option>
+        <option>Negócios</option>
+        <option>Saúde</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputState">Classificação Indicativa:</label>
+      <select name="inputState" class="form-control">
+        <option selected>Escolher...</option>
+        <option>Livre para todos os públicos</option>
+        <option>Maiores de 10 anos</option>
+        <option>Maiores de 14 anos</option>
+        <option>Maiores de 16 anos</option>
+        <option>Maiores de 18 anos</option>
+      </select>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Data:</label>
+      <input type="date" class="form-control" name="hora" placeholder="Endereço">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Hora:</label>
+      <input type="time" class="form-control" name="inputPassword4" placeholder="Endereço">
+    </div>
+  </div>
+    <div class="form-group">
+    <label for="exampleFormControlTextarea1">Descrição</label>
+    <textarea class="form-control" name="descricao" rows="7"></textarea>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlFile1">Escolha uma imagem para o Evento</label>
+    <input type="file" class="form-control-file" name="exampleFormControlFile1">
+  </div>
+  <center><button type="submit" class="btn btn-primary" style="margin: 30px;">Enviar</button></center>
+</fieldset>
+</div>
+
+
+      <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Desenvolvido por Pablo, Thiago e Almir &copy; Eventos.com</p>
+    </div>
+    <!-- /.container -->
+  </footer>
